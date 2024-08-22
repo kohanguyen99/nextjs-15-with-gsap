@@ -18,7 +18,10 @@
     "next": "^15.0.0-rc.0",
     "react": "^19.0.0-rc-8269d55d-20240802",
     "react-dom": "^19.0.0-rc-8269d55d-20240802",
-    "tailwind-merge": "^2.4.0"
+    "react-player": "^2.16.0",
+    "socket.io-client": "^4.7.5",
+    "tailwind-merge": "^2.4.0",
+    "usehooks-ts": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
