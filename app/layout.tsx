@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import AppHeader from "@/components/layout/common/AppHeader";
 import LenisScroll from "@/components/layout/wrapper/LenisScroll";
+import { Noise } from "@/components/layout/common/Noise";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <AppHeader />
+        <Noise />
         <LenisScroll>
           <main id="main"></main>
           {children}
